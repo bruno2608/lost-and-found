@@ -1,4 +1,4 @@
-package br.una.lostandfound.domain;
+package br.una.lostandfound.entities.domain;
 
 import lombok.Data;
 
@@ -24,5 +24,9 @@ public class Poster {
         this.message = message;
         this.adressFound = adressFound;
         this.adressToPickup = adressToPickup;
+    }
+
+    public enum ErrorMessage {
+        NOT_FOUND,
     }
 }

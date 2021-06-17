@@ -1,6 +1,6 @@
-package br.una.lostandfound.domain;
+package br.una.lostandfound.entities.domain;
 
-import br.una.lostandfound.enums.BelongingType;
+import br.una.lostandfound.entities.enums.BelongingType;
 import lombok.Builder;
 import lombok.Data;
 

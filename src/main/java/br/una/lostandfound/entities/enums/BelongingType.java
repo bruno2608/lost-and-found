@@ -1,4 +1,4 @@
-package br.una.lostandfound.enums;
+package br.una.lostandfound.entities.enums;
 
 public enum BelongingType {
     WALLET,

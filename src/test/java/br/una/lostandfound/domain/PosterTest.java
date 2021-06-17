@@ -1,6 +1,9 @@
 package br.una.lostandfound.domain;
 
-import br.una.lostandfound.enums.BelongingType;
+import br.una.lostandfound.entities.enums.BelongingType;
+import br.una.lostandfound.entities.domain.Belongs;
+import br.una.lostandfound.entities.domain.Poster;
+import br.una.lostandfound.entities.domain.Reporter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
